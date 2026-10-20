@@ -9,7 +9,6 @@ Material de estudo sobre alocação de memória, preparado para revisar fundamen
 - Gerenciamento de memória em Python
 - Referências e instrução `del`
 - Vazamento e falta de memória
-- Exercícios de fixação
 
 ## 📂 Arquivo principal
 - [`alocacao-de-memoria.md`](alocacao-de-memoria.md) — teoria, exemplos, resumo e exercícios.
