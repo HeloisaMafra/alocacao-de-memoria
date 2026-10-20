@@ -129,28 +129,7 @@ No Python, esse exemplo normalmente resulta em `RecursionError` antes de um esto
 | Coletor de lixo | Mecanismo que ajuda a identificar e liberar objetos não mais necessários, inclusive certos ciclos de referências. |
 | Memory leak | Memória que permanece ocupada por dados que já não deveriam ser mantidos. |
 
-## 8. Exercícios para praticar
-
-1. Explique com suas palavras o que é alocação de memória.
-2. Qual é a diferença geral entre alocação estática e dinâmica?
-3. Por que uma lista Python pode crescer quando usamos `append()`?
-4. Qual é a diferença entre Stack e Heap?
-5. O que a instrução `del nomes` faz no exemplo apresentado?
-6. O que é um vazamento de memória?
-7. Execute o código abaixo e observe o que é impresso:
-
-```python
-valores = [1, 2, 3]
-referencia = valores
-
-del valores
-
-print(referencia)
-```
-
-**Desafio:** modifique o exemplo para adicionar um novo elemento à lista usando o nome `referencia`. Explique por que ela continua acessível.
-
-## 9. Conclusão
+## 8. Conclusão
 
 Entender alocação de memória ajuda a compreender como os programas armazenam e utilizam dados. Mesmo que Python cuide de boa parte desse gerenciamento automaticamente, conhecer conceitos como Stack, Heap, referências e coleta de lixo contribui para escrever programas mais eficientes e compreender melhor o funcionamento das linguagens.
 
